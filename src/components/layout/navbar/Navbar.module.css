@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    display: inline-flex;
+}
+
+.leftContainer img {
+    width: 38px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 16px 35px 14px 35px;
+}
+
+.leftContainer ul {
+    list-style: none;
+    height: 70px;
+    display: inline-flex;
+}
+
+.leftContainer ul li {
+    font-size: 14px;
+    font-weight: 600;
+    height: 39px;
+    width: 126.088px;
+    margin: 27px 0 0 0;
+    text-align: center;
+    transition: all .3s;
+}
+
+.leftContainer ul li:hover {
+    border-bottom: 4px solid #D0021B;
+}
+
+.leftContainer ul li:hover a {
+    color: #EB0A1E;
+}
+
+.leftContainer ul li .active {
+    border: 4px solid bottom #8f0212;
+    text-align: center;
+}
+
+.rightContainer {
+    background: rgb(94, 205, 25);
+    display: inline-flex;
+}
+
+.rightContainer .menu {
+    font-size: 14px;
+    color: #191919;
+    padding: 27px 6px 0 0;
+}
+
+.rightContainer .hamburger {
+    font-size: 18px;
+    padding: 22px 26px 0 6px;
+}
