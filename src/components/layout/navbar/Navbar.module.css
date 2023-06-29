@@ -29,7 +29,7 @@
     width: 126.088px;
     margin: 27px 0 0 0;
     text-align: center;
-    transition: all .3s;
+    transition: all .1s;
 }
 
 .leftContainer ul li:hover {

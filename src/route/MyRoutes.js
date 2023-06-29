@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 import { Main } from '../components/main/Main';
 import { Navbar } from '../components/layout/navbar/Navbar';
+// import { Footer } from '../components/layout/footer/Footer';
 
 export const MyRutes = () => {
     return (
@@ -27,7 +28,9 @@ export const MyRutes = () => {
                 </Routes>
 
             </section>
-
+            
+            {/* <Footer /> */}
+                    
         </BrowserRouter>
     )
 }

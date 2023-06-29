@@ -1,0 +1,58 @@
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 79%;
+}
+
+.container h1 {
+    width: 100%;
+    margin: 85px 0 0 0;
+    color: #373737;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1px;
+}
+
+.container .subNavbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 0 0 0;
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.container .subNavbar .filter span {
+    color: #373737;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.079px;
+    margin-right: 45px;
+}
+
+.container .subNavbar .filter button {
+    color: #373737;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.079px;
+    border-radius: 18px;
+    padding: 9px 19px;
+    margin-right: 45px;
+    transition: all .15s;
+}
+
+.container .subNavbar .filter button:hover {
+    background: #F7F7F7;
+}
+
+.container .subNavbar .filter button:last-child {
+    margin-right: 0px;
+}
+
+.container .subNavbar .order {
+    vertical-align: middle;
+    padding: 7px 19px;
+}
